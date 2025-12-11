@@ -1,0 +1,50 @@
+*
+{
+   font-family: Josefin Sans, sans-serif;
+}
+
+body
+{
+    background-color: rgb(225, 235, 189);
+}
+.main-container
+{
+    box-sizing: border-box;
+    width: 50%;
+    height: auto;
+    margin: 10px auto;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: lightyellow;
+    text-align: center;
+}
+
+.Recipes
+{
+    box-sizing: border-box;
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.recipes-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(227, 239, 212);
+    width: 800px;
+    height: auto;
+    margin: 5px auto;
+    border: 0.5px solid black;
+    padding: 10px;
+}
+
+.breakfast-smashed-taco, .caesar-salad, .chocolate-souffle
+{
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin: auto 20px;
+}
