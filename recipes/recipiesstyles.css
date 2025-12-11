@@ -1,0 +1,46 @@
+*{
+    font-family: Quicksand, sans-serif;
+}
+
+body
+{
+    background-color: rgb(225, 235, 189);
+}
+
+.main-container
+{
+    box-sizing: border-box;
+    width: 50%;
+    height: auto;
+    margin: 0px auto;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: lightyellow;
+    text-align: center;
+
+}
+
+hr
+{
+    width: 80%;
+}
+
+.ingredients-section, .instructions-section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0px auto;
+}
+.Ceaser-Recipe
+{
+    display: flex;
+    flex-direction: row;
+    align-items:first baseline;
+    justify-content: center;
+    width: 80%;
+    
+}
